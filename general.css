@@ -1,0 +1,56 @@
+:root
+{
+    /* Variables */
+    --main-color: #deab5f;
+    --primary-color: #191010;
+    --mycolor: white;
+}
+
+button
+{
+    padding: 10px 30px; 
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #0f0f10;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Roboto, arial;
+    padding-top: 15px;
+}
+
+li
+{
+    display: inline;
+    list-style: none;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-bottom: 8px;
+}
+
+li a:hover
+{
+    border-bottom: 2px solid var(--main-color);
+}

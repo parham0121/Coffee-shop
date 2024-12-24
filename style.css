@@ -1,0 +1,65 @@
+.header
+{
+    background: url(Images/pexels-nao-triponez-129207.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Roboto, arial;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.main-heading
+{
+    position: absolute;
+    top: 6rem;
+    font-size: 5rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.primary-heading
+{
+    position: absolute;
+    bottom: 3rem;
+    font-size: 5rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.mainbtn
+{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    padding-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(80px);
+}
+
+#our-story
+{
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img
+{
+    width: 400px;
+    height: 400px;
+    background: url(Images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
