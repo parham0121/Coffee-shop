@@ -1,10 +1,19 @@
+:root
+{
+    /* Variables */
+    --main-color: #deab5f;
+    --primary-color: #191010;
+    --myfont : Roboto, arial;
+}
+
 .header
 {
     background: url(Images/pexels-nao-triponez-129207.jpg);
+    background-repeat: repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    font-family: Roboto, arial;
+    font-family: var(--myfont);
     font-weight: normal;
     display: flex;
     flex-direction: column;
@@ -38,8 +47,6 @@
 {
     position: absolute;
     bottom: 2rem;
-    padding: 10px 30px;
-    padding-top: 20px;
     background: transparent;
     background: var(--main-color);
     transform: translateY(80px);
@@ -49,17 +56,79 @@
 {
     height: 100vh;
     margin-top: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
+.img-container
+{
+    margin-left: 25px;
+}
+
 .img
 {
-    width: 400px;
-    height: 400px;
-    background: url(Images/pexels-chitokan-2183027-removebg-preview.png);
+    width: 450px;
+    height: 435px;
+    background: url(Images/2.png);
     background-position: center;
     background-size: cover;
+}
+
+.title-style
+{
+    display: flex;
+    align-items: center;   
+}
+
+.title
+{
+    font-family: var(--myfont);
+    font-size: 5rem;
+    color: white;
+    transform: translateX(-100px);
+}
+
+.line
+{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    transform: translateX(-120px);
+}
+
+.section-content p
+{
+    max-width: 900px;
+    color: white;
+    font-family: var(--myfont);
+    font-size: 25px;
+    line-height: 28px;
+    margin-right: 20px;
+}
+
+.coffee-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title-2
+{
+    font-family: var(--myfont);
+    font-size: 4rem;
+    color: white;
+}
+
+.img2
+{
+    width: 450px;
 }
