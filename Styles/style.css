@@ -18,7 +18,7 @@
 .our-story
 {
     height: 100vh;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -30,6 +30,7 @@
 .img-container
 {
     margin-left: 25px;
+    margin-top: 5%;
 }
 
 .img
@@ -43,8 +44,8 @@
 
 .img-container2 .img2
 {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     background: url(Images/1.png);
     background-position: center;
     background-size: cover;
@@ -70,6 +71,11 @@
     height: 2px;
     background-color: white;
     transform: translateX(-120px);
+}
+
+.section-content
+{
+    margin-bottom: 40px;
 }
 
 .section-content p
