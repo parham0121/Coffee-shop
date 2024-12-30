@@ -1,0 +1,56 @@
+:root
+{
+    /* Variables */
+    --main-color: #deab5f;
+    --primary-color: #191010;
+    --myfont : Roboto, arial;
+}
+
+.header
+{
+    height: 100vh;
+    font-family: var(--myfont);
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.header-img
+{
+    margin-top: 90px;
+    width: 500px;
+    height: 500px;
+    background: url(Images/3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-heading
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 6rem;
+    font-size: 5rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+    right: 43rem;
+}
+
+.primary-heading
+{
+    position: absolute;
+    bottom: 3rem;
+    font-size: 5rem;
+    word-spacing: 10px;
+    margin-bottom: -30px;
+    right: 41rem;
+}
