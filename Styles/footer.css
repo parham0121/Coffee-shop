@@ -49,6 +49,19 @@ span
 
 .hr2
 {
+    
     margin-bottom: 20px;
     border-color: var(--main-color);
+}
+
+@media screen and (max-width: 1096px)
+{
+    .hr2
+    {
+        margin-top: 200px;
+    }
+    footer p
+    {
+        font-size: 0.9rem;
+    }
 }

@@ -13,10 +13,17 @@ nav
     font-size: 2rem;
 }
 
+.main-btn
+{
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
 .hr-nav
 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-color: var(--main-color);
 }
 
@@ -54,4 +61,19 @@ li a:hover::after
 {
     transform: scalex(1);
     transform-origin: left;
+}
+
+@media screen and (max-width: 800px) {
+    li
+    {
+        font-size: 0.9rem;
+    }   
+    li a
+    {
+        margin-left: 10px;
+    }
+    .main-btn
+    {
+        font-size: 13px;
+    }
 }
