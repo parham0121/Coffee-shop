@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="Styles/header.css">
     <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/loginform.css">
     <!-- Link css -->
 
     <!-- Fonts -->
@@ -38,12 +39,70 @@
     </nav>
     <hr class="hr-nav">
     <!-- Navbar -->
-    
+
     <!-- Header -->
     <header class="header">
         <h1 class="main-heading">Start Your Day</h1>
         <div class="header-img"></div>
         <h1 class="primary-heading">With Your Coffee</h1>
+
+       <!-- Login Form -->
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-Box Login">
+                <h2>Login</h2>
+                <Form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-Register">
+                        <p>Dont have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                </Form>
+            </div>
+
+            <div class="form-Box Register">
+                <h2>Registration</h2>
+                <Form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-Register">
+                        <p>Already have an account?<a href="#" class="Login-Link">Login</a></p>
+                    </div>
+                </Form>
+            </div>
+        </div>
+       <!-- Login Form -->
+
     </header>
     <!-- Header --> 
 
@@ -80,7 +139,9 @@
                 </h1>
             </div>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi necessitatibus quas quaerat explicabo nobis quasi quisquam ratione voluptatibus, porro minima, ex inventore obcaecati ab officia ducimus assumenda iusto earum nihil!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Nisi necessitatibus quas quaerat explicabo nobis quasi quisquam ratione voluptatibus,
+                  porro minima, ex inventore obcaecati ab officia ducimus assumenda iusto earum nihil!
             </p>
             <button>Learn More</button>
         </div>
@@ -171,5 +232,12 @@
     </footer>
     <hr class="hr2">
     <!-- Footer -->
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Scripts -->
+
 </body>
 </html>
